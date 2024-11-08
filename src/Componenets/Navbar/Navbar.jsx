@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="navbar">
       <img
         src={logo}
-        style={{ width: "30%", height: "40%", marginTop: "-12px" }}
+        style={{ width: "20%", height: "30%", marginTop: "-12px" }}
         alt="Logo"
         className="logo"
       />
