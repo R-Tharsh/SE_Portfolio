@@ -6,6 +6,12 @@
   gap: 30px;
 }
 
+.footer img {
+  width: 40%;
+  height: 60%;
+  margin-top: -12px;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
