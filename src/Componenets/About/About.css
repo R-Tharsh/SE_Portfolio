@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
+  margin: 50px 40px;
   padding: 40px 20px;
 }
 
@@ -74,7 +75,7 @@
 }
 
 .about-skill hr {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   height: 8px;
   border-radius: 50px;
   background: linear-gradient(264deg, #da7c25 -5.09%, #b923e1 106.28%);

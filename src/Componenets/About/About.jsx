@@ -17,31 +17,32 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Equipped with a robust educational background in BSc (Hons) in
-              Information Technology.
+              "I’m a highly motivated software engineer with a Bachelor’s degree
+              in Information Technology, specializing in Software Engineering.
             </p>
             <p>
-              I am genuinely excited about the potential for continuous growth,
-              learning from seasoned professionals.
+              Over the past few years, I’ve honed my skills in both frontend and
+              backend development, working with technologies such as React, PHP,
+              Laravel, and WordPress.
             </p>
           </div>
 
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skill">
               <p>React Js</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "70%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Laravel & PHP</p>
+              <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
               <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <hr style={{ width: "90%" }} />
             </div>
             <div className="about-skill">
-              <p>HTML & CSS</p>
-              <hr style={{ width: "50%" }} />
+              <p>WordPress</p>
+              <hr style={{ width: "80%" }} />
             </div>
           </div>
         </div>

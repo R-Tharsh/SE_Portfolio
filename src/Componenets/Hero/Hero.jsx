@@ -8,14 +8,14 @@ const Hero = () => {
     <section id="home" className="hero">
       <img src={profile_img} alt="Profile" className="hero-image" />
       <h1 className="hero-heading">
-        <span>I'm Robert Anandaraj Tharshan,</span> Software Engineer based in
-        Sri Lanka.
+        <span>Hi, I'm Robert Tharshan,</span> a Passionate Software Engineer
       </h1>
       <p className="hero-description">
-        As a fervent and aspiring Software Engineer, I'm geared up to embark on
-        my journey within the software development domain. Equipped with a
-        robust educational background in BSc (Hons) in Information Technology,
-        specializing in Software Engineering.
+        hands-on experience in PHP/Laravel, WordPress, and frontend frameworks
+        like React, I enjoy building efficient, scalable solutions that solve
+        real-world problems. I am always eager to learn new technologies and
+        collaborate with like-minded individuals to create impactful digital
+        experiences.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
