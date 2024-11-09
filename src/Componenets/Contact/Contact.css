@@ -164,7 +164,7 @@
 /* Responsive Styles for Mobile */
 @media (max-width: 480px) {
   .contact {
-    margin: 40px 20px;
+    margin: 50px 40px;
   }
 
   .contact-title h1 {
