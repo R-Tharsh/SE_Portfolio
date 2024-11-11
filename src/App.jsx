@@ -6,6 +6,7 @@ import Services from "./Componenets/Services/Services";
 import MyWork from "./Componenets/MyWork/MyWork";
 import Contact from "./Componenets/Contact/Contact";
 import Footer from "./Componenets/Footer/Footer";
+import Experience from "./Componenets/Experience/Experience";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Experience />
       <Services />
       <MyWork />
       <Contact />
