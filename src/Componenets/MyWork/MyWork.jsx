@@ -1,5 +1,6 @@
 import React from "react";
 import "./MyWork.css";
+import theme_pattern from "../../assets/theme_pattern.svg";
 
 const MyWork = () => {
   const projects = [
@@ -37,7 +38,10 @@ const MyWork = () => {
 
   return (
     <div className="projects-section" id="projects">
-      <h1 className="projects-title">My Projects</h1>
+      <div className="projects-title">
+        <h1>My Works</h1>
+        <img src={theme_pattern} alt="" />
+      </div>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>

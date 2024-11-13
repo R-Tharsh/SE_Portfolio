@@ -8,12 +8,24 @@
 }
 
 .experience-title {
+  position: relative;
+  text-align: center;
+}
+
+.experience-title h1 {
+  padding: 0px 30px;
   font-size: 60px;
-  font-weight: 700;
-  background: linear-gradient(270deg, #df8908 80%, #b415ff 106.28%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.experience-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 180px;
 }
 
 .experience-timeline {
@@ -95,8 +107,13 @@
     margin: 50px 70px;
   }
 
-  .experience-title {
+  .experience-title h1 {
     font-size: 40px;
+  }
+
+  .experience-title img {
+    width: 130px;
+    right: -10px;
   }
 
   .experience-timeline {

@@ -6,7 +6,6 @@
   justify-content: center;
   gap: 80px;
   margin: 50px 40px;
-  padding: 40px 20px;
 }
 
 .about-title {
@@ -123,7 +122,6 @@
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
   .about {
-    padding: 20px;
     gap: 50px;
   }
 

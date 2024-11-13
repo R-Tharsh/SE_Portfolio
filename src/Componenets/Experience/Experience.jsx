@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import theme_pattern from "../../assets/theme_pattern.svg";
 import experience_icon from "../../assets/call_icon.svg";
 
 const Experience = () => {
@@ -29,7 +30,10 @@ const Experience = () => {
 
   return (
     <div className="experience-section" id="experience">
-      <h1 className="experience-title">My Experiences</h1>
+      <div className="experience-title">
+        <h1>My Experience</h1>
+        <img src={theme_pattern} alt="" />
+      </div>
       <div className="experience-timeline">
         {experiences.map((exp, index) => (
           <div className="experience-item" key={index}>
