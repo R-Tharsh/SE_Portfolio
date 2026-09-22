@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p className="footer-bottom-left">
           {" "}
-          2024 Robert Tharshan. All rights Reserved
+          2026 Robert Tharshan. All rights reserved
         </p>
         <div className="footer-bottom-right">
           <p>Term of Services</p>

@@ -2,66 +2,29 @@ import React from "react";
 import "./MyWork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 
-const MyWork = () => {
-  const projects = [
-    {
-      name: "JobArmer",
-      description:
-        " JobArmer is the ultimate solution designed to streamline and simplify the way service contractors to manage field workforce. ",
-      link: "https://jobarmer.com/",
-    },
-    {
-      name: "AI Powered Travel Recommendation System",
-      description:
-        "  This research project proposes the development of a personalized travel recommendation system that caters to individual traveler's unique needs and preferences.",
-      link: "https://github.com/R-Tharsh",
-    },
-    {
-      name: "Thalsevena Beach Resort Management System",
-      description:
-        " This is a full web application. We used Java, SERVELETS ,JSP,  HTML, CSS, Bootstrap and MySQL for develop this system & our project contains eight sub-systems",
-      link: "https://github.com/R-Tharsh/Beach-Resort-Management-System---Y2-S2-",
-    },
-    {
-      name: "Online Laundry Management System",
-      description:
-        "This is a full web application. We used React, Express js, Node js and MongoDB for develop this web application. Our project contains user site, admin site, manager site, deliverer site and worker site.",
-      link: "https://github.com/bSathursan/Washapp-SPM-SER043",
-    },
-    {
-      name: "Portfolio Website",
-      description:
-        "A personal portfolio built with React and Vite. Showcasing my web development skills and projects.",
-      link: "https://github.com/R-Tharsh/SE_Portfolio",
-    },
-  ];
+const projects = [
+  { name: "ORN Motor Claim System", description: "Full-stack motor insurance claims platform covering claim intimation, document submission, assessment, repair estimation, approvals, payments, salvage handling, OCR verification, PDF processing, and customer communication." },
+  { name: "ORN Premier Commander", description: "Insurance operations platform for high-volume policy processing with Excel/CSV ingestion, configurable mapping, validation, premium calculations, batch management, reporting, queue workers, transactions, and row-level locking." },
+  { name: "ORN-PREMIA Agent", description: "Python desktop RPA solution for a Java insurance application with PyAutoGUI, OCR screen validation, configurable JSON workflows, retries, REST API integration, and application health monitoring." },
+  { name: "SmartPortal Insurance Management API", description: "Laravel insurance management API covering motor, property, and SME quotation-to-policy workflows, with premium calculation, policy issuance, document workflows, signatures, PDF generation, messaging, and RBAC." },
+  { name: "Insurance ID Card Printing & Management", description: "Role-based insurance ID-card platform with CSV bulk uploads, validation, duplicate detection, branch-level print queues, batch printing, printer activity tracking, inventory, audit logs, reporting, and PDF generation." },
+];
 
-  return (
-    <div className="projects-section" id="projects">
-      <div className="projects-title">
-        <h1>My Works</h1>
-        <img src={theme_pattern} alt="" />
-      </div>
-      <div className="projects-grid">
-        {projects.map((project, index) => (
-          <div className="project-card" key={index}>
-            <div className="project-card-content">
-              <h2 className="project-name">{project.name}</h2>
-              <p className="project-description">{project.description}</p>
-              <a
-                href={project.link}
-                className="project-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Project
-              </a>
-            </div>
+const MyWork = () => (
+  <div className="projects-section" id="work">
+    <div className="projects-title"><h1>Selected Projects</h1><img src={theme_pattern} alt="" /></div>
+    <div className="projects-grid">
+      {projects.map((project) => (
+        <div className="project-card" key={project.name}>
+          <div className="project-card-content">
+            <h2 className="project-name">{project.name}</h2>
+            <p className="project-description">{project.description}</p>
+            <a href="https://github.com/R-Tharsh" className="project-link" target="_blank" rel="noopener noreferrer">View GitHub</a>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
-  );
-};
+  </div>
+);
 
 export default MyWork;

@@ -1,21 +1,21 @@
 const Services_Data = [
   {
     s_no: "01",
-    s_name: "Web Developement",
+    s_name: "Full-Stack Development",
     s_desc:
-      "I develop responsive, dynamic, and user-friendly websites using React, JavaScript, and modern frameworks to create visually appealing and functional web apps.",
+      "I build business-focused web applications with Laravel, PHP, Vue.js, React.js, Inertia.js, Livewire, Tailwind CSS, and JavaScript.",
   },
   {
     s_no: "02",
-    s_name: "Backend Development",
+    s_name: "API & Backend Engineering",
     s_desc:
-      "I specialize in creating robust backend systems using PHP, Laravel, and .NET, with a focus on scalability and security.",
+      "I design secure REST APIs, authentication, role-based access control, database workflows, queue processing, and scalable integrations with Laravel and PHP.",
   },
   {
     s_no: "03",
-    s_name: "WordPress Development",
+    s_name: "Automation & Document Processing",
     s_desc:
-      "I build custom WordPress themes and plugins, focusing on creating fully functional and optimized websites for businesses....",
+      "I automate complex business workflows with Python RPA, OCR validation, PDF generation, bulk data processing, and third-party API integrations.",
   },
   // {
   //     s_no:"04",

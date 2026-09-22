@@ -16,8 +16,9 @@ const Contact = () => {
         <div className="contact-left">
           <h1>Let's talk</h1>
           <p>
-            Equipped with a robust educational background in BSc (Hons) in
-            Information Technology.
+            I’m open to opportunities where I can build reliable products,
+            automate complex workflows, and solve meaningful engineering
+            problems.
           </p>
           <div className="contact-details">
             <div className="contact-detail">
