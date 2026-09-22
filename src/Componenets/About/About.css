@@ -57,31 +57,43 @@
 .about-skills {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
-.about-skill {
-  display: flex;
+.skill-group {
+  display: grid;
+  grid-template-columns: 150px 1fr;
   align-items: center;
-  gap: 40px;
-  transition: transform 0.3s ease-in-out;
+  gap: 22px;
 }
 
-.about-skill p {
-  min-width: 150px;
-  font-size: 24px;
-  font-weight: 500;
+.skill-group h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.about-skill hr {
-  /* flex-grow: 1; */
-  height: 8px;
-  border-radius: 50px;
-  background: linear-gradient(264deg, #da7c25 -5.09%, #b923e1 106.28%);
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.about-skill:hover {
-  transform: scale(1.05);
+.skill-tags span {
+  padding: 9px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  color: #ddd;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 15px;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.skill-tags span:hover {
+  border-color: #da7c25;
+  background: rgba(218, 124, 37, 0.14);
+  transform: translateY(-2px);
 }
 
 /* Achievements Section */
@@ -152,12 +164,9 @@
     line-height: 1.4;
   }
 
-  .about-skill p {
-    font-size: 18px;
-  }
-
-  .about-skill hr {
-    height: 6px;
+  .skill-group {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .about-achievements {
@@ -190,10 +199,6 @@
   }
 
   .about-para {
-    font-size: 24px;
-  }
-
-  .about-skill p {
     font-size: 24px;
   }
 

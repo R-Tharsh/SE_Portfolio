@@ -1,30 +1,29 @@
 import React from "react";
 import "./Experience.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import experience_icon from "../../assets/call_icon.svg";
 
 const Experience = () => {
   const experiences = [
     {
+      position: "Software Engineer",
+      company: "Multiblity (Pvt) Ltd",
+      duration: "Nov 2024 – Sep 2026",
+      description:
+        "Built and maintained full-stack insurance applications with Laravel, PHP, Vue.js, Inertia.js, Livewire, Tailwind CSS, MySQL/PostgreSQL, and REST APIs. Delivered motor claims, policy, payment, document, and approval workflows with secure authentication, OCR/PDF automation, bulk processing, queues, integrations, and Python RPA.",
+    },
+    {
       position: "Associate Software Engineer",
-      company: "Innovay Pvt Ltd",
-      duration: "Jan 2024 - April 2024",
+      company: "Innovay",
+      duration: "2024",
       description:
-        "Working on web applications using PHP, Laravel, and WordPress, and delivering high-quality software solutions.",
+        "Built web applications using PHP, Laravel, WordPress, and frontend technologies. Delivered CRUD modules, database-driven workflows, maintenance tasks, and application enhancements while collaborating across teams.",
     },
     {
-      position: "Intern Software Engineer",
+      position: "Software Engineering Intern",
       company: "Creo 360",
-      duration: "Dec 2022 - June 2023",
+      duration: "Dec 2022 – Jul 2023",
       description:
-        "Developed and maintained responsive websites with React, ensuring cross-browser compatibility and enhanced user experience.",
-    },
-    {
-      position: "Web Developer",
-      company: "Gypzeez",
-      duration: "June 2021 - May 2022",
-      description:
-        "Gained practical experience in full-stack development by working on internal projects and collaborating with senior engineers.",
+        "Applied software engineering fundamentals to development, debugging, testing, and technical problem resolution while contributing to real-world team workflows.",
     },
   ];
 
